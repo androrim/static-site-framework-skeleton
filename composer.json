@@ -1,0 +1,18 @@
+{
+    "name": "static-site-framework/app",
+    "authors": [
+        {
+            "name": "Leandro de Amorim",
+            "email": "androrim@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "StaticSiteFramework\\Core\\": "./vendor/staticsiteframework/src/Core",
+            "StaticSiteFramework\\Helpers\\": "./vendor/staticsiteframework/src/Helpers"
+        }
+    }
+}

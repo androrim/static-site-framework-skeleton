@@ -1,0 +1,6 @@
+composer.lock
+
+/vendor/*
+nbproject/*
+config/app.php
+config/routes.json
